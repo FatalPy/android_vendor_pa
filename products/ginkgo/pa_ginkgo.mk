@@ -12,14 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit some common AOSPA stuff.
 include device/qcom/common/common.mk
 include vendor/pa/config/common_full_phone.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_ginkgo
+PRODUCT_NAME := pa_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
