@@ -24,7 +24,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
-
+    $(LOCAL_DIR)/ginkgo/pa_ginkgo.mk \
 # SONY OpenDevices
 # Loire 8956
 PRODUCT_MAKEFILES += \
